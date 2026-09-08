@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>A Travel — Откройте мир вместе с нами</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}body{font-family:Arial,sans-serif;color:#17202a;background:#fff;line-height:1.5}a{text-decoration:none;color:inherit}.container{max-width:1200px;margin:auto;padding:0 24px}header{height:82px;background:#fff;display:flex;align-items:center;border-bottom:1px solid #eef2f6;position:sticky;top:0;z-index:20}.nav{display:flex;align-items:center;justify-content:space-between;width:100%}.logo{height: 100px;width:auto}nav{display:flex;gap:30px;font-weight:700;color:#003d7d}nav a:hover{color:#ff6704}.phone{background:#003d7d;color:#fff;padding:13px 20px;border-radius:9px;font-weight:700}.hero{min-height:520px;background:linear-gradient(90deg,rgba(255,255,255,.97),rgba(255,255,255,.72) 43%,rgba(255,255,255,0)),url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1800&q=85') center/cover;  align-items:center}.hero-content{max-width:560px;padding:70px 0}.hero h1{font-size:58px;line-height:1.02;color:#003d7d;margin-bottom:18px}.hero h1 span{color:#ff6704}.hero p{font-size:20px;font-weight:600;margin-bottom:28px}.btn{display:inline-block;background:#ff6704;color:white;padding:15px 26px;border-radius:9px;font-weight:800;border:0;cursor:pointer}.section{padding:70px 0}.section-title{text-align:center;margin-bottom:38px}.eyebrow{color:#ff6704;font-weight:800;font-size:14px;text-transform:uppercase}.section-title h2{font-size:38px;color:#003d7d}.tours{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.card{border:1px solid #e5ebf2;border-radius:14px;overflow:hidden;background:#fff;box-shadow:0 8px 25px rgba(0,61,125,.08);transition:.25s}.card:hover{transform:translateY(-5px)}.card img{width:100%;height:190px;object-fit:cover}.card-body{padding:18px}.tag{display:inline-block;background:#ff6704;color:#fff;border-radius:20px;padding:5px 10px;font-size:12px;font-weight:800;margin-bottom:12px}.card h3{color:#003d7d;font-size:20px;margin-bottom:10px}.features{font-size:14px;color:#4b5563;min-height:105px}.price{font-size:28px;color:#ff6704;font-weight:900;margin:10px 0}.price small{font-size:13px}.card .btn{width:100%;padding:12px;text-align:center}.services{background:#f2f7fc}.service-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:20px;text-align:center}.service{padding:15px}.icon{width:56px;height:56px;border-radius:50%;background:#fff;color:#003d7d;display:flex;align-items:center;justify-content:center;margin:0 auto 12px;font-size:26px}.service h3{color:#003d7d;font-size:16px}.service p{font-size:13px;color:#5f6b78}.about{background:#003d7d;color:#fff}.about-grid{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:50px}.about h2{font-size:40px;margin:8px 0 20px}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:15px;margin-top:28px}.stat strong{display:block;font-size:28px}.stat span{font-size:13px;opacity:.8}.testimonials{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.quote{border:1px solid #e5ebf2;border-radius:14px;padding:24px;box-shadow:0 8px 25px rgba(0,61,125,.06)}.quote p{color:#4b5563;margin-bottom:15px}.stars{color:#ff6704;letter-spacing:2px}footer{background:#001f42;color:#fff;padding:55px 0 20px}.footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1.3fr;gap:35px}footer h3{margin-bottom:15px}footer a,footer p{color:#d8e4ef;display:block;margin:7px 0;font-size:14px}input{width:100%;padding:13px;border-radius:8px;border:0;margin-top:10px}.copyright{text-align:center;border-top:1px solid rgba(255,255,255,.15);margin-top:35px;padding-top:18px;color:#9fb4c9;font-size:13px}@media(max-width:900px){nav{display:none}.tours{grid-template-columns:repeat(2,1fr)}.service-grid{grid-template-columns:repeat(3,1fr)}.about-grid{grid-template-columns:1fr}.testimonials{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr 1fr}.hero h1{font-size:44px}}@media(max-width:560px){.tours{grid-template-columns:1fr}.service-grid{grid-template-columns:repeat(2,1fr)}.footer-grid{grid-template-columns:1fr}.hero h1{font-size:38px}.phone{display:none}}
+</style></head><body>
+<header>
+    <div class="container nav">
+        <a href="#home">
+            <img class="logo" src="logo.png" alt="A Travel">
+        </a>
+        <nav>
+            <a href="#home">Главная</a>
+            <a href="#tours">Туры</a>
+            <a href="#services">Услуги</a>
+            <a href="#about">О нас</a>
+            <a href="#contact">Контакты</a>
+        </nav>
+        <nav class="lang-switcher">
+            <a href="index.html" class="lang-link" title="O'zbekcha">UZ</a>
+            <span class="lang-divider">|</span>
+            <a href="russion.html" class="lang-link active" title="Русский">RU</a>
+            <span class="lang-divider">|</span>
+            <a href="english.html" class="lang-link" title="English">EN</a>
+        </nav>
+
+        <!-- CSS Стили для адаптивности -->
+        <style>
+            .lang-switcher {
+                display: inline-flex;
+                align-items: center;
+                gap: 8px;
+                background-color: #ffffff;
+                padding: 6px 12px;
+                border-radius: 20px;
+                border: 1px solid #e0e0e0;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            }
+
+            .lang-link {
+                text-decoration: none;
+                color: #666666;
+                font-weight: 600;
+                font-size: 14px;
+                transition: color 0.3s ease;
+            }
+
+            .lang-link:hover {
+                color: #3498db;
+            }
+
+            /* Стиль активного языка */
+            .lang-link.active {
+                color: #3498db;
+                border-bottom: 2px solid #3498db;
+            }
+
+            .lang-divider {
+                color: #cccccc;
+                font-size: 12px;
+            }
+
+            /* Адаптивность для мобильных устройств */
+            @media (max-width: 768px) {
+                .lang-switcher {
+                    padding: 4px 8px;
+                    gap: 5px;
+                }
+
+                .lang-link {
+                    font-size: 12px;
+                }
+
+                .lang-divider {
+                    font-size: 10px;
+                }
+            }
+        </style>
+        <a class="phone" href="tel:+998901234567">☎ +998 99 689 33 33</a>
+
+    </div>
+</header>
+<section class="hero" id="home"><div class="container"><div class="hero-content"><h1>Откройте мир <span>вместе с нами</span></h1><p>Лучшие направления, доступные цены и незабываемые впечатления!</p><a class="btn" href="#tours">✈ НАЧАТЬ ПУТЕШЕСТВИЕ</a></div></div></section>
+<section class="section" id="tours"><div class="container"><div class="section-title"><div class="eyebrow">Туристические туры</div><h2>Популярные туры</h2></div><div class="tours">
+<article class="card"><img src="https://plus.unsplash.com/premium_photo-1691338312403-e9f7f7984eeb?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aXN0YW5idWx8ZW58MHx8MHx8fDA%3D"><div class="card-body"><span class="tag">ТУРЦИЯ</span><h3>Стамбул — 5 дней / 4 ночи</h3><div class="features">✈ Авиабилет<br>🏨 Отель 4★<br>🍳 Завтрак<br>🚐 Трансфер<br>🕌 Экскурсия</div><div class="price">от $399</div><a class="btn" href="#contact">ПОДРОБНЕЕ</a></div></article>
+<article class="card"><img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=900&q=80"><div class="card-body"><span class="tag">ДУБАЙ</span><h3>Дубай — 6 дней / 5 ночей</h3><div class="features">✈ Авиабилет<br>🏨 Отель 5★<br>🏙 Сити-тур<br>🏜 Сафари в пустыне<br>🚐 Трансфер</div><div class="price">от $599</div><a class="btn" href="#contact">ПОДРОБНЕЕ</a></div></article>
+<article class="card"><img src="https://images.unsplash.com/photo-1568322445389-f64ac2515020?auto=format&fit=crop&w=900&q=80"><div class="card-body"><span class="tag">ЕГИПЕТ</span><h3>Шарм-эль-Шейх — 7 дней / 6 ночей</h3><div class="features">✈ Авиабилет<br>🏨 Всё включено<br>🏖 Отель на берегу моря<br>🚐 Трансфер<br>🤿 Дайвинг / Снорклинг</div><div class="price">от $649</div><a class="btn" href="#contact">ПОДРОБНЕЕ</a></div></article>
+<article class="card"><img src="https://images.unsplash.com/photo-1596422846543-75c6fc197f07?auto=format&fit=crop&w=900&q=80"><div class="card-body"><span class="tag">МАЛАЙЗИЯ</span><h3>Куала-Лумпур — 8 дней / 7 ночей</h3><div class="features">✈ Авиабилет<br>🏨 Отель 4★<br>🍳 Завтрак<br>🏙 Сити-тур<br>🌴 Тур по тропическим островам</div><div class="price">от $899</div><a class="btn" href="#contact">ПОДРОБНЕЕ</a></div></article>
+</div></div></section>
+<section class="section services" id="services"><div class="container"><div class="section-title"><div class="eyebrow">Наши услуги</div><h2>Лучшее для вас</h2></div><div class="service-grid">
+<div class="service"><div class="icon">✈</div><h3>Авиабилеты</h3><p>Самые дешевые и удобные авиабилеты</p></div><div class="service"><div class="icon">🏨</div><h3>Отели</h3><p>Бронирование отелей по всему миру</p></div><div class="service"><div class="icon">🚐</div><h3>Трансфер</h3><p>Комфортный трансфер в аэропорту и городе</p></div><div class="service"><div class="icon">🛡</div><h3>Страхование</h3><p>Туристическая страховка и гарантия безопасности</p></div><div class="service"><div class="icon">🧭</div><h3>Экскурсии</h3><p>Интересные и незабываемые программы</p></div><div class="service"><div class="icon">🎧</div><h3>Поддержка 24/7</h3><p>Мы всегда на связи с вами</p></div>
+</div></div></section>
+<section class="section about" id="about"><div class="container about-grid"><div><div class="eyebrow">Почему A Travel?</div><h2>Путешествовать с нами легко!</h2><p>Мы поможем вам на каждом этапе — от планирования поездки до возвращения домой.</p><div class="stats"><div class="stat"><strong>5000+</strong><span>Довольных клиентов</span></div><div class="stat"><strong>50+</strong><span>Направлений</span></div><div class="stat"><strong>1000+</strong><span>Различных туров</span></div><div class="stat"><strong>10+</strong><span>Лет опыта</span></div></div></div><img src="https://images.unsplash.com/photo-1530789253388-582c481c54b0?auto=format&fit=crop&w=1000&q=80" style="width:100%;border-radius:18px" alt="Travel"></div></section>
+<section class="section"><div class="container"><div class="section-title"><div class="eyebrow">Отзывы клиентов</div><h2>Наши довольные клиенты</h2></div><div class="testimonials"><div class="quote"><p>«Ездили в Дубай с A Travel. Сервис просто отличный, всё было организовано на высшем уровне!»</p><strong>Бехзод Р.</strong><div class="stars">★★★★★</div></div><div class="quote"><p>«Наша поездка в Стамбул стала незабываемой. Отель, трансфер и экскурсии были прекрасно организованы.»</p><strong>Зарина К.</strong><div class="stars">★★★★★</div></div><div class="quote"><p>«Оперативность, надежность и доступные цены. Теперь всегда буду путешествовать с A Travel!»</p><strong>Жасур М.</strong><div class="stars">★★★★★</div></div></div></div></section>
+<footer id="contact">
+    <div class="container">
+        <div class="footer-grid"><div>
+            <img class="logo" style="width: 150px; height: 150px;" src="logo.png" alt="A Travel">
+    <p>Откройте мир вместе с нами!</p>
+    <p style="font-weight: bold; letter-spacing: 1px; font-size: 14px; color: white;">Генеральный директор: Исхоков Абдурасул Абдусатторович</p>
+</div><div><h3>Быстрые ссылки</h3><a href="#home">Главная</a><a href="#tours">Туры</a><a href="#services">Услуги</a><a href="#about">О нас</a></div><div><h3>Контакты</h3><p>☎ +998 99 689 33 33</p><p>✉ info@atravel.uz</p><p>📍Ташкентская область, Зангиатинский район, МСГ Харакат, улица Курувчи, дом 8</p></div><div><h3>Подписка</h3><p>Узнавайте о новостях и скидках первыми!</p><input placeholder="Ваш Email адрес"></div></div><div class="copyright">© 2026 A Travel. Все права защищены.</div></div></footer>
+</body></html>
